@@ -1,6 +1,6 @@
+<div class=container>
 <h1>Lists#new</h1>
-<p>Find me in app/views/lists/new.html.erb</p>
-
+</div>
 
 <div class=container>
   <%= simple_form_for(@list) do |f| %>
@@ -8,3 +8,7 @@
     <%= f.submit %>
   <% end %>
 </div>
+
+<div>
+</div>
+<%= link_to "Take me back to lists", lists_path, class: "btn btn-light"%>
